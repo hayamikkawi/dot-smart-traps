@@ -35,7 +35,7 @@ const device2 = new Device({
     humidity: 15, 
     batteryLevel: 98, 
     lastSeen: Date.now(), 
-    deviceDetails: device2Details
+    details: device2Details
 })
 const device3 = new Device({
     deviceId: 3,
@@ -44,7 +44,7 @@ const device3 = new Device({
     humidity: 77, 
     batteryLevel: 20, 
     lastSeen: Date.now(), 
-    deviceDetails: device3Details
+    details: device3Details
 })
 const device4 = new Device({
     deviceId: 4,
@@ -53,7 +53,7 @@ const device4 = new Device({
     humidity: 6, 
     batteryLevel: 78, 
     lastSeen: Date.now(), 
-    deviceDetails: device4Details
+    details: device4Details
 })
 
 const mockDevices = [device1, device2, device3, device4]
