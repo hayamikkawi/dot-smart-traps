@@ -1,7 +1,8 @@
 const mockDevices = require('../mock/devices')
 
 const getDevices = async(req, res) => {
-    res.status(200).json(mockDevices);
+    const devices = mockDevices.map(({details, ...device}) => device)
+    res.status(200).json(devices);
 };
 
 const getDeviceById = async(req, res) => {
