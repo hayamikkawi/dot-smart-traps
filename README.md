@@ -7,3 +7,4 @@ There are two branches:
 
 ## UI: 
 A Figma design was created, can be found at: [this link.](https://www.figma.com/design/VFZ6GEJUL47IjgPE5t9N9Z/Dot---Device?node-id=0-1&t=fGsyhZNBoCafFHm0-1)
+Screenshots can also be found in this repo under ui folder.
